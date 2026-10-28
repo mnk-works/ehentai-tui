@@ -1,9 +1,13 @@
 [package]
-name = "ehentai_tui"
+name = "ehentai"
 version = "0.1.0"
 edition = "2024"
 description = "A terminal user interface (TUI) for browsing and viewing e-hentai.org manga"
 license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "ehentai"
+path = "src/main.rs"
 
 [dependencies]
 # Terminal UI
